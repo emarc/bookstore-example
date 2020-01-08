@@ -1,5 +1,5 @@
 tasks:
-  - init: mvn install -Pproduction jetty:start
+  - init: mvn install -Pproduction jetty:effective-web-xml
     command: mvn jetty:run
 ports:
   - port: 8080
